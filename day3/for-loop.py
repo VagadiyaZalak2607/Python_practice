@@ -9,7 +9,7 @@ for i in num:
     print(i)
 
 
-#print table 
+#print table   
 n = int(input("Enter n : "))
 
 for i in range(1, 11):
