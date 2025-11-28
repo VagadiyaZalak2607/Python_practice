@@ -6,10 +6,10 @@ A = 22
 B = 26
 print("sum = ",A+B)
 
-#find square root
-N = int(input("Enter N: "))
-square_root = N**0.5
-print("square root of",N,"is: ",square_root)
+#USD to INR
+USD = int(input("Enter USD: "))
+INR = USD*90
+print(USD,"i=: ",INR)
 
 #area of traingle
 A = int(input("Enter side A:"))

@@ -3,7 +3,7 @@ def multiply(a, b):
     multiply = a*b
     print(multiply)
     return multiply
-multiply(22,26)
+multiply(22,26)  
 
 #average of 3 numbers
 def average(a,b,c):
