@@ -10,7 +10,7 @@ def average(a,b,c):
     sum = a+b+c
     average = sum/3
     print(average)
-    return(average)
+    return average
 average(22,26,11)
 
 #default parameter

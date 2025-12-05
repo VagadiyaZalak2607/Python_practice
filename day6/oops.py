@@ -1,67 +1,67 @@
-# #creating class
+#creating class
 
-# class Student:
-#     name = "zalak","dipen","abc","xyz"
+class Student:
+    name = "zalak","dipen","abc","xyz"
+ v
+#creating object
+s1= Student()
+print(s1)
 
-# #creating object
-# s1= Student()
-# print(s1)
+#constructor
+student1 = Student()
+print(student1.name)
 
-# #constructor
-# student1 = Student()
-# print(student1.name)
+#init function
+class Student1:
+    name = "xyz"
+    def __init__(self):
+        print("adding a new student in list")
 
-# #init function
-# class Student1:
-#     name = "xyz"
-#     def __init__(self):
-#         print("adding a new student in list")
+s1 = Student1()
 
-# s1 = Student1()
+#adding value in function
+class Student2:
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+        print("adding a new student in list")
+s2 = Student2("zalak",90)
+print(s2.name)
+print(s2.marks)
 
-# #adding value in function
-# class Student2:
-#     def __init__(self,name,marks):
-#         self.name = name
-#         self.marks = marks
-#         print("adding a new student in list")
-# s2 = Student2("zalak",90)
-# print(s2.name)
-# print(s2.marks)
+#create a student class that takes name and marks find avg
+class Student3:
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+    def avg(self):
+        sum = 0
+        for avg in self.marks:
+            sum+=avg
+        print("Hii",self.name,"your avg score is:",sum/3)
+s3 = Student3("zalu",[90,92,93])
+s3.avg()
 
-# #create a student class that takes name and marks find avg
-# class Student3:
-#     def __init__(self,name,marks):
-#         self.name = name
-#         self.marks = marks
-#     def avg(self):
-#         sum = 0
-#         for avg in self.marks:
-#             sum+=avg
-#         print("Hii",self.name,"your avg score is:",sum/3)
-# s3 = Student3("zalu",[90,92,93])
-# s3.avg()
+#static method
+class Hello:
+    @staticmethod
+    def msg():
+        print("hello")
+Hello.msg()
 
-# #static method
-# class Hello:
-#     @staticmethod
-#     def msg():
-#         print("hello")
-# Hello.msg()
+#abstraction
+class Car:
+    def __init__(self):
+        self.acc = False
+        self.brk = False
+        self.clutch = False
+    def Start(self):
+        self.acc = True
+        self.brk = True
+        print("Car Started....")
 
-# #abstraction
-# class Car:
-#     def __init__(self):
-#         self.acc = False
-#         self.brk = False
-#         self.clutch = False
-#     def Start(self):
-#         self.acc = True
-#         self.brk = True
-#         print("Car Started....")
-
-# c1 = Car()
-# c1.Start() 
+c1 = Car()
+c1.Start() 
 
 #create bank account details
 class Bank():
