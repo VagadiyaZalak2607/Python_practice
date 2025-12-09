@@ -19,7 +19,6 @@ while True:
 
     qty = int(input("Enter quantity: "))
 
-    # price finder using simple if/elif
     if item == "cheese":
         price = 100
     elif item == "milk":
@@ -44,10 +43,12 @@ while True:
 
 if(total >= 1000):
     print("you get 10% discount")
-    discount = (total * 10)/100 
+    discount = (total * 10)/100
+
 if(total >= 2000):
     print("you get 20% discount")
     discount = (total * 20)/100 
+    
 else:
     discount = 0
 

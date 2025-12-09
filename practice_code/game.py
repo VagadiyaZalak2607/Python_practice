@@ -1,9 +1,7 @@
-'''
-Docstring for practice_code.game
-1  = snake
--1 = water
-0  = gun
-'''
+# 1  = snake
+# -1 = water
+# 0  = gun
+
 import random
 you = int(input("Enter (1 for snake, -1 for water, 0 for gun): "))
 if you not in [1, -1, 0]:
