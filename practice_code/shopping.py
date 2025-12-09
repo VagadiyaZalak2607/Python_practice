@@ -42,11 +42,12 @@ while True:
     total += amount
     print(item,"added : ",amount,"\n")
 
-if total >= 1000:
+if(total >= 1000):
     print("you get 10% discount")
-    discount = (total * 10)/100
-    # print("you get discount Rs:",discount) 
-    # print("price before discount Rs:",amount) 
+    discount = (total * 10)/100 
+if(total >= 2000):
+    print("you get 20% discount")
+    discount = (total * 20)/100 
 else:
     discount = 0
 
