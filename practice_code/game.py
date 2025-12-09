@@ -6,20 +6,23 @@ Docstring for practice_code.game
 '''
 import random
 you = int(input("Enter (1 for snake, -1 for water, 0 for gun): "))
-computer = random.choice([1, -1, 0])  
-print ("computer: ",computer)
-
-if(computer == you):
-    print("Match Draw!")
-
-elif(computer == 1 and you == -1):  
-    print("Computer Wins!")
-
-elif(computer == -1 and you == 0):  
-    print("Computer Wins!")
-
-elif(computer == 0 and you == 1):  
-        print("Computer Wins!")
-
+if you not in [1, -1, 0]:
+    print("Invalid choice! Enter only 1, -1, or 0.")
+    exit()
 else:
-    print("You Win!!!")
+    computer = random.choice([1, -1, 0])  
+    print ("computer: ",computer)
+
+    if(computer == you):
+            print("Match Draw!")
+
+    elif(you == 1 and computer == -1):  
+            print("You Win!!!")
+
+    elif(you == -1 and computer == 0):  
+            print("You Win!!!")
+
+    elif(you == 0 and computer == 1):  
+                print("You Win!!!")
+    else:
+            print("Computer Wins!!!")

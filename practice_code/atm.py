@@ -1,6 +1,6 @@
 Balance = 100000
 B_Pin = 1234
-print("----- Welcome to Python Bank -----")
+print("----- Welcome to ATM -----")
 while True:
     A = float(input("""To check balance enter 1:
     To deposit enter 2:
@@ -36,7 +36,7 @@ while True:
         else:
             print("incorrect pin try again later")
     elif(A == 4):
-        print("Thank you for using Python Bank!")
+        print("Thank you for using ATM!")
         break
     else:
         print(" Invalid choice. Please enter 1-4.")
