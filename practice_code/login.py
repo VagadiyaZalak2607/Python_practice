@@ -2,7 +2,7 @@ username = "admin"
 password = "1234"
 Balance = 100000
 
-for attempt in range(3):
+for attempt in range(3+1):
     u = input("Enter username: ")
     p = input("Enter password: ")
 
