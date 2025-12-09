@@ -51,3 +51,9 @@ while True:
 
     else:
         print("Invalid choice. Please enter 1-4.")
+
+    re_enter=input("Entre Yes/No :").lower()
+    if(re_enter=="no" or "n"):
+        break
+    elif(re_enter=="yes" or "y"):
+        continue
