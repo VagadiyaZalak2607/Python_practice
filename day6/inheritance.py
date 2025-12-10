@@ -10,4 +10,3 @@ def moving():
     class Boat(Vehicle):
         def move(self):
             print("Boat sails")
-print(moving())
