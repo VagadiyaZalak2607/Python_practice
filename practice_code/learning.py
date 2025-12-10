@@ -39,4 +39,7 @@ if(Year%4==0):
 else:
     print(Year,"is not leap Year and it has 365 days")
 
-
+a = int(input("Enter starting number: "))
+b = int(input("Enter ending number: "))
+for i in range(a,b+1):
+    print(i)

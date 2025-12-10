@@ -68,6 +68,7 @@ class Bank():
     def __init__(self,acc,bal):
          self.account = acc
          self.balance = bal
+
     #debit method
     def Debit(self,amount):
          self.balance -= amount
@@ -84,11 +85,12 @@ class Bank():
     def Balance(self):
          return self.balance
          
-
 bank1 = Bank(22260711,100000)
 print("your account number:",bank1.account)
 print("your bank balance:",bank1.balance)
 bank1.Credit(5000)
 bank1.Debit(2000)
+
+
 
         

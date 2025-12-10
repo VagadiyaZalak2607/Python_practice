@@ -29,7 +29,7 @@ b = int(input("Enter second number b: "))
 
 a = a + b
 b = a - b
-a = a - b
+a = a - b                   
 
 print("After swapping:")
 print("a =", a)
@@ -193,4 +193,50 @@ def factorial(n):
     return n * factorial(n-1)
 n = int(input("Enter number:"))
 print(factorial(n))
+
+# Month number → print how many days it has.
+A = int(input("""
+          January: 1
+        February: 2
+          March : 3
+          April : 4
+          May : 5
+          June : 6
+          July : 7
+          August : 8
+          September : 9
+          October : 10
+          Novemvber : 11
+          December : 12
+          Enter your choice:"""))
+if A == 1:
+    print(A,"has 31 Days")
+elif A == 2:
+    Year = int(input("Enter Year: "))
+    if(Year%4==0):
+        print(A,"has 29 Days because",Year,"is leap year")
+    else:
+        print(A,"has 28 days")
+elif A == 3:
+    print(A,"has 31 Days")
+elif A == 4:
+    print(A,"has 30 Days")
+elif A == 5:
+    print(A,"has 31 Days")
+elif A == 6:
+    print(A,"has 30 Days")
+elif A == 7:
+    print(A,"has 31 Days")
+elif A == 8:
+    print(A,"has 31 Days")
+elif A == 9:
+    print(A,"has 30 Days")
+elif A == 10:
+    print(A,"has 31 Days")
+elif A == 11:
+    print(A,"has 30 Days")
+elif A == 12:
+    print(A,"has 31 Days")
+
+
 

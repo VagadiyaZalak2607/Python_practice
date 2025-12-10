@@ -10,7 +10,7 @@ while True:
     To withdraw enter 3
     To exit enter 4
     Enter your choice: """))
-
+ 
     if A == 4:
         print("Thank you for using ATM!")
         break
