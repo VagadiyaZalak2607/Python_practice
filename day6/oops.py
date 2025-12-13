@@ -1,5 +1,4 @@
 #creating class
-
 class Student:
     name = "zalak","dipen","abc","xyz"
  
