@@ -7,7 +7,7 @@ class Child(Parent):
 c = Child()
 c.show()
 
-#multilevel inheritance (Grandparent → Parent → Child)
+#multilevel inheritance (inherit property from Grandparent to Parent to Child)
 class Grandfather:
     def house(self):        
         print("Grandfather's house")
