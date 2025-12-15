@@ -20,3 +20,17 @@ num2.shownumber()
 
 num3 = num1 + num2
 num3.shownumber()
+
+#example
+class Circle:
+    def __init__(self,radius):
+        self.radius = radius
+    
+    def area(self):
+        return (22/7) * self.radius **2
+    
+    def perimeter(self):
+        return 2 * (22/7) * self.radius
+ar = Circle(14)
+print("area of circle:",ar.area())
+print("area of perimeter:",ar.perimeter())
