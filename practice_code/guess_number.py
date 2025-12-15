@@ -12,4 +12,8 @@ for attempt in range(3):
 else:
     print(f"Sorry! The correct number was {number}.")
 
+print("-----GAME OVER-----")
+
+
+
 
