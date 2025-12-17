@@ -44,13 +44,18 @@ print(arr5)
 print("number of dimensions :", arr5.ndim)
 
 #array indexing
-arr6 = np.array([1, 2, 3, 4])
+arr6 = np.array([22,23,24,25,26,27,28,29,30])
 print("array 1st element: ",arr6[0])
 print("array 3rd element: ",arr6[2])
 
 #adds to array
-print("3 & 4 element: ",arr[2] + arr[3])
+print("3 & 4 element addition: ",arr6[2] + arr6[3])
 # print("array 4 & 5: ",arr4 +""+ arr5)
 
 #access 2D array
 print("element between 0 and 1 index number: ", arr3[0, 1])
+
+#slicing
+print("array slicing: ",arr[2:10])
+print("elements : ",arr[3:])
+print("elements : ",arr[:4])
