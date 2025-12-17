@@ -59,3 +59,8 @@ print("element between 0 and 1 index number: ", arr3[0, 1])
 print("array slicing: ",arr[2:10])
 print("elements : ",arr[3:])
 print("elements : ",arr[:4])
+print("elements : ",arr[-3:-1]) #negative slicing
+
+#step
+print("step: ",arr[1:5:2])
+# 2, 3, 4, 5, 6,
