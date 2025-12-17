@@ -72,4 +72,4 @@ print("step: ",arr[1:5:2])
 print("every other element: ", arr[::2]) #every other element from the entire array
 
 #data type
-print("data type of array values: ", arr.dtype)
+print("data type of array values: ", arr.dtype)  
