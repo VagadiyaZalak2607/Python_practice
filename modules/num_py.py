@@ -25,7 +25,7 @@ arr2 = np.array([1, 2, 3, 4, 5])
 print("1D array: ",arr2)
 
 # #2D array
-arr3 = np.array([[1, 2, 3], [4, 5, 6]])
+arr3 = np.array([[1, 2, 3,4,5,6,7,8,9,10], [11,12,13,14,15,16,17,18,19,20]]) #row0 and row1
 print("2D array: ",arr3)
 
 # #3D array
@@ -50,17 +50,26 @@ print("array 3rd element: ",arr6[2])
 
 #adds to array
 print("3 & 4 element addition: ",arr6[2] + arr6[3])
-# print("array 4 & 5: ",arr4 +""+ arr5)
 
 #access 2D array
 print("element between 0 and 1 index number: ", arr3[0, 1])
 
 #slicing
 print("array slicing: ",arr[2:10])
-print("elements : ",arr[3:])
+print("elements : ",arr[3:]) 
 print("elements : ",arr[:4])
-print("elements : ",arr[-3:-1]) #negative slicing
+
+#negative slicing
+print("elements : ",arr[-3:-1]) 
+ 
+#slicing 2D array
+print(arr3[1, 1:4]) #(row, column)
+print(arr3[0:2, 2])
+print(arr3[0:2, 1:4])
 
 #step
 print("step: ",arr[1:5:2])
-# 2, 3, 4, 5, 6,
+print("every other element: ", arr[::2]) #every other element from the entire array
+
+#data type
+print("data type of array values: ", arr.dtype)
