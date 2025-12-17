@@ -10,7 +10,7 @@ import numpy as np
 print("version =",np.__version__) #version of numpy
 
 #creating an array using np keyword
-arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10,])
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 print("array =",arr)
 
 #type of an array
@@ -41,14 +41,16 @@ print(arr4.ndim)
 #higher dimension of array
 arr5 = np.array([1, 2, 3, 4], ndmin=5)
 print(arr5)
-print('number of dimensions :', arr5.ndim)
+print("number of dimensions :", arr5.ndim)
 
 #array indexing
 arr6 = np.array([1, 2, 3, 4])
-print(arr6[0])
+print("array 1st element: ",arr6[0])
+print("array 3rd element: ",arr6[2])
 
 #adds to array
-print(arr[2] + arr[3])
+print("3 & 4 element: ",arr[2] + arr[3])
+# print("array 4 & 5: ",arr4 +""+ arr5)
 
 #access 2D array
-print('2nd element on 1st row: ', arr3[0, 1])
+print("element between 0 and 1 index number: ", arr3[0, 1])
