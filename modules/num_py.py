@@ -1,5 +1,5 @@
 #import numpy module
-import numpy
+import numpy  
 
 #creating an array
 arr = numpy.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
@@ -72,4 +72,15 @@ print("step: ",arr[1:5:2])
 print("every other element: ", arr[::2]) #every other element from the entire array
 
 #data type
-print("data type of array values: ", arr.dtype)  
+print("data type of array values: ", arr.dtype) 
+arr = np.array([1, 0, 3,4,5,0,-1])
+newarr = arr.astype(bool) #returns 0 as false
+print(newarr)
+print(newarr.dtype)
+
+#copy an array
+arr = np.array([1, 2, 3, 4, 5])
+x = arr.copy() #copy an array
+arr[0] = 42 #change 0 index value
+print(arr)
+print(x)
