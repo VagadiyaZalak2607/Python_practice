@@ -63,7 +63,7 @@ print("elements : ",arr[:4])
 print("elements : ",arr[-3:-1]) 
  
 #slicing 2D array
-print(arr3[1, 1:4]) #(row, column)
+print(arr3[1, 1:4]) #(row,column)
 print(arr3[0:2, 2])
 print(arr3[0:2, 1:4])
 
@@ -82,5 +82,12 @@ print(newarr.dtype)
 arr = np.array([1, 2, 3, 4, 5])
 x = arr.copy() #copy an array
 arr[0] = 42 #change 0 index value
+print(arr)
+print(x)
+
+#changes in view array
+arr = np.array([1, 2, 3, 4, 5])
+x = arr.view()
+x[0] = 31
 print(arr)
 print(x)
